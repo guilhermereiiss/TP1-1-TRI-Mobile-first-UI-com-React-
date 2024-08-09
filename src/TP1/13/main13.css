@@ -4,19 +4,20 @@
   box-sizing: border-box;
 }
 
-#root{
+#root {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-around; 
+  align-items: center; 
   background-color: lightgray;
   padding: 20px;
+  border: 2px solid #ccc;
+  height: 200px; 
 }
 
-.item{
-  background-color: rgb(36, 94, 221) ;
+.item {
+  background-color: rgb(0, 63, 114);
   color: white;
   padding: 20px;
   text-align: center;
-  margin: 5px;
-  border-radius: 8px;
+  margin: 10px; 
 }

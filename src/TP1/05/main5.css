@@ -4,19 +4,23 @@
   box-sizing: border-box;
 }
 
-#root{
+#root {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-around;
   background-color: lightgray;
   padding: 20px;
 }
 
-.item{
-  background-color: rgb(36, 94, 221) ;
+.item {
+  background-color: rgb(16, 79, 131);
   color: white;
   padding: 20px;
   text-align: center;
+  flex-basis: auto;
   margin: 5px;
-  border-radius: 8px;
+}
+
+.item2 {
+  background-color: rgb(12, 97, 62);
+  flex-basis: 200px;
 }

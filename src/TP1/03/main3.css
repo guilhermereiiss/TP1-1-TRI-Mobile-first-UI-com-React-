@@ -6,17 +6,24 @@
 
 #root{
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-around;
   background-color: lightgray;
   padding: 20px;
 }
 
-.item{
-  background-color: rgb(36, 94, 221) ;
+.item1{
+  background-color:rgb(60, 60, 214) ;
+  color:white;
+  padding: 20px;
+  text-align: center;
+  flex-grow: 3;
+  margin: 5px;
+}
+
+.item2, .item3 {
+  background-color: steelblue;
   color: white;
   padding: 20px;
   text-align: center;
-  margin: 5px;
-  border-radius: 8px;
+  flex-grow: 1; 
 }

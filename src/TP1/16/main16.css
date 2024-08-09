@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; 
+  grid-template-rows: repeat(3, 100px); 
+  gap: 10px; 
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.grid_item {
+  background-color: rgb(116, 46, 0);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}

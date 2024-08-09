@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  background-color: lightgray;
+  padding: 20px; 
+  margin: 20px;
+}
+
+.container_interno{
+  display: flex;
+  justify-content: space-around; 
+  background-color: rgb(226, 94, 138);
+  padding: 10px;
+  margin: 10px; 
+}
+
+.item {
+  background-color: rgb(133, 0, 93);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin: 0 5px; 
+  border-radius: 8px;
+}
